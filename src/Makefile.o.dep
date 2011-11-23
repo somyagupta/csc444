@@ -1,0 +1,1 @@
+o = resource.o calculation.o convert.o download.o functions.o iniparser.o languages.o mainwindow.o misc.o pad.o parsermanager.o programresources.o tabs.o threadcontroller.o update.o variables.o winmain.o 

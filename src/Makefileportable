@@ -1,0 +1,31 @@
+include Makefile.o.dep
+include Makefile.help.dep
+
+
+CC     = g++
+CFLAGS = -Wall -pedantic -s -Os -fno-default-inline -mwindows -I../../ttmath -DTTCALC_PORTABLE -DTTMATH_DONT_USE_WCHAR
+name   = ttcalcp.exe
+compressor = upx
+
+
+
+all: ttcalc
+
+
+%.o: %.cpp
+	$(CC) -c $(CFLAGS) $<
+
+
+ttcalc: $(name)
+
+
+$(name): $(o)
+	$(CC) -o $(name) $(CFLAGS) $(o) -lcomctl32 -lwininet
+	$(compressor) -7 $(name)
+
+
+resource.o: resource.rc
+	windres -DTTCALC_PORTABLE resource.rc resource.o
+
+
+include Makefile.cpp.dep

@@ -1,0 +1,176 @@
+# DO NOT DELETE
+
+calculation.o: compileconfig.h parsermanager.h resource.h programresources.h
+calculation.o: iniparser.h languages.h bigtypes.h
+calculation.o: ../../ttmath/ttmath/ttmath.h ../../ttmath/ttmath/ttmathbig.h
+calculation.o: ../../ttmath/ttmath/ttmathint.h
+calculation.o: ../../ttmath/ttmath/ttmathuint.h
+calculation.o: ../../ttmath/ttmath/ttmathtypes.h
+calculation.o: ../../ttmath/ttmath/ttmathmisc.h
+calculation.o: ../../ttmath/ttmath/ttmathuint_x86.h
+calculation.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+calculation.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+calculation.o: ../../ttmath/ttmath/ttmaththreads.h
+calculation.o: ../../ttmath/ttmath/ttmathobjects.h
+calculation.o: ../../ttmath/ttmath/ttmathparser.h
+calculation.o: ../../ttmath/ttmath/ttmath.h threadcontroller.h
+calculation.o: ../../ttmath/ttmath/ttmathobjects.h stopcalculating.h
+calculation.o: ../../ttmath/ttmath/ttmathtypes.h convert.h tabs.h messages.h
+convert.o: convert.h compileconfig.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+convert.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+convert.o: ../../ttmath/ttmath/ttmathuint.h ../../ttmath/ttmath/ttmathtypes.h
+convert.o: ../../ttmath/ttmath/ttmathmisc.h
+convert.o: ../../ttmath/ttmath/ttmathuint_x86.h
+convert.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+convert.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+convert.o: ../../ttmath/ttmath/ttmaththreads.h
+convert.o: ../../ttmath/ttmath/ttmathobjects.h
+convert.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+download.o: compileconfig.h download.h
+functions.o: compileconfig.h tabs.h resource.h messages.h
+functions.o: ../../ttmath/ttmath/ttmathtypes.h programresources.h iniparser.h
+functions.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+functions.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+functions.o: ../../ttmath/ttmath/ttmathuint.h
+functions.o: ../../ttmath/ttmath/ttmathtypes.h
+functions.o: ../../ttmath/ttmath/ttmathmisc.h
+functions.o: ../../ttmath/ttmath/ttmathuint_x86.h
+functions.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+functions.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+functions.o: ../../ttmath/ttmath/ttmaththreads.h
+functions.o: ../../ttmath/ttmath/ttmathobjects.h
+functions.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+functions.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+functions.o: stopcalculating.h convert.h
+iniparser.o: compileconfig.h iniparser.h
+languages.o: compileconfig.h languages.h bigtypes.h
+languages.o: ../../ttmath/ttmath/ttmath.h ../../ttmath/ttmath/ttmathbig.h
+languages.o: ../../ttmath/ttmath/ttmathint.h ../../ttmath/ttmath/ttmathuint.h
+languages.o: ../../ttmath/ttmath/ttmathtypes.h
+languages.o: ../../ttmath/ttmath/ttmathmisc.h
+languages.o: ../../ttmath/ttmath/ttmathuint_x86.h
+languages.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+languages.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+languages.o: ../../ttmath/ttmath/ttmaththreads.h
+languages.o: ../../ttmath/ttmath/ttmathobjects.h
+languages.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+mainwindow.o: compileconfig.h winmain.h programresources.h iniparser.h
+mainwindow.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+mainwindow.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+mainwindow.o: ../../ttmath/ttmath/ttmathuint.h
+mainwindow.o: ../../ttmath/ttmath/ttmathtypes.h
+mainwindow.o: ../../ttmath/ttmath/ttmathmisc.h
+mainwindow.o: ../../ttmath/ttmath/ttmathuint_x86.h
+mainwindow.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+mainwindow.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+mainwindow.o: ../../ttmath/ttmath/ttmaththreads.h
+mainwindow.o: ../../ttmath/ttmath/ttmathobjects.h
+mainwindow.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+mainwindow.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+mainwindow.o: stopcalculating.h ../../ttmath/ttmath/ttmathtypes.h convert.h
+mainwindow.o: resource.h messages.h tabs.h pad.h update.h download.h misc.h
+pad.o: ../../ttmath/ttmath/ttmath.h ../../ttmath/ttmath/ttmathbig.h
+pad.o: ../../ttmath/ttmath/ttmathint.h ../../ttmath/ttmath/ttmathuint.h
+pad.o: ../../ttmath/ttmath/ttmathtypes.h ../../ttmath/ttmath/ttmathmisc.h
+pad.o: ../../ttmath/ttmath/ttmathuint_x86.h
+pad.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+pad.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+pad.o: ../../ttmath/ttmath/ttmaththreads.h
+pad.o: ../../ttmath/ttmath/ttmathobjects.h ../../ttmath/ttmath/ttmathparser.h
+pad.o: ../../ttmath/ttmath/ttmath.h programresources.h compileconfig.h
+pad.o: iniparser.h languages.h bigtypes.h threadcontroller.h
+pad.o: ../../ttmath/ttmath/ttmathobjects.h stopcalculating.h
+pad.o: ../../ttmath/ttmath/ttmathtypes.h convert.h resource.h messages.h
+pad.o: pad.h
+parsermanager.o: compileconfig.h parsermanager.h resource.h
+parsermanager.o: programresources.h iniparser.h languages.h bigtypes.h
+parsermanager.o: ../../ttmath/ttmath/ttmath.h ../../ttmath/ttmath/ttmathbig.h
+parsermanager.o: ../../ttmath/ttmath/ttmathint.h
+parsermanager.o: ../../ttmath/ttmath/ttmathuint.h
+parsermanager.o: ../../ttmath/ttmath/ttmathtypes.h
+parsermanager.o: ../../ttmath/ttmath/ttmathmisc.h
+parsermanager.o: ../../ttmath/ttmath/ttmathuint_x86.h
+parsermanager.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+parsermanager.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+parsermanager.o: ../../ttmath/ttmath/ttmaththreads.h
+parsermanager.o: ../../ttmath/ttmath/ttmathobjects.h
+parsermanager.o: ../../ttmath/ttmath/ttmathparser.h
+parsermanager.o: ../../ttmath/ttmath/ttmath.h threadcontroller.h
+parsermanager.o: ../../ttmath/ttmath/ttmathobjects.h stopcalculating.h
+parsermanager.o: ../../ttmath/ttmath/ttmathtypes.h convert.h tabs.h
+parsermanager.o: messages.h
+programresources.o: compileconfig.h programresources.h iniparser.h
+programresources.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+programresources.o: ../../ttmath/ttmath/ttmathbig.h
+programresources.o: ../../ttmath/ttmath/ttmathint.h
+programresources.o: ../../ttmath/ttmath/ttmathuint.h
+programresources.o: ../../ttmath/ttmath/ttmathtypes.h
+programresources.o: ../../ttmath/ttmath/ttmathmisc.h
+programresources.o: ../../ttmath/ttmath/ttmathuint_x86.h
+programresources.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+programresources.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+programresources.o: ../../ttmath/ttmath/ttmaththreads.h
+programresources.o: ../../ttmath/ttmath/ttmathobjects.h
+programresources.o: ../../ttmath/ttmath/ttmathparser.h
+programresources.o: ../../ttmath/ttmath/ttmath.h threadcontroller.h
+programresources.o: ../../ttmath/ttmath/ttmathobjects.h stopcalculating.h
+programresources.o: ../../ttmath/ttmath/ttmathtypes.h convert.h
+tabs.o: compileconfig.h tabs.h resource.h messages.h
+tabs.o: ../../ttmath/ttmath/ttmathtypes.h programresources.h iniparser.h
+tabs.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+tabs.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+tabs.o: ../../ttmath/ttmath/ttmathuint.h ../../ttmath/ttmath/ttmathtypes.h
+tabs.o: ../../ttmath/ttmath/ttmathmisc.h ../../ttmath/ttmath/ttmathuint_x86.h
+tabs.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+tabs.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+tabs.o: ../../ttmath/ttmath/ttmaththreads.h
+tabs.o: ../../ttmath/ttmath/ttmathobjects.h
+tabs.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+tabs.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+tabs.o: stopcalculating.h convert.h
+threadcontroller.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+threadcontroller.o: stopcalculating.h compileconfig.h
+threadcontroller.o: ../../ttmath/ttmath/ttmathtypes.h
+update.o: compileconfig.h update.h download.h programresources.h iniparser.h
+update.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+update.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+update.o: ../../ttmath/ttmath/ttmathuint.h ../../ttmath/ttmath/ttmathtypes.h
+update.o: ../../ttmath/ttmath/ttmathmisc.h
+update.o: ../../ttmath/ttmath/ttmathuint_x86.h
+update.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+update.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+update.o: ../../ttmath/ttmath/ttmaththreads.h
+update.o: ../../ttmath/ttmath/ttmathobjects.h
+update.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+update.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+update.o: stopcalculating.h ../../ttmath/ttmath/ttmathtypes.h convert.h
+update.o: messages.h resource.h winmain.h tabs.h pad.h misc.h
+variables.o: compileconfig.h tabs.h resource.h messages.h
+variables.o: ../../ttmath/ttmath/ttmathtypes.h programresources.h iniparser.h
+variables.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+variables.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+variables.o: ../../ttmath/ttmath/ttmathuint.h
+variables.o: ../../ttmath/ttmath/ttmathtypes.h
+variables.o: ../../ttmath/ttmath/ttmathmisc.h
+variables.o: ../../ttmath/ttmath/ttmathuint_x86.h
+variables.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+variables.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+variables.o: ../../ttmath/ttmath/ttmaththreads.h
+variables.o: ../../ttmath/ttmath/ttmathobjects.h
+variables.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+variables.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+variables.o: stopcalculating.h convert.h
+winmain.o: compileconfig.h winmain.h programresources.h iniparser.h
+winmain.o: languages.h bigtypes.h ../../ttmath/ttmath/ttmath.h
+winmain.o: ../../ttmath/ttmath/ttmathbig.h ../../ttmath/ttmath/ttmathint.h
+winmain.o: ../../ttmath/ttmath/ttmathuint.h ../../ttmath/ttmath/ttmathtypes.h
+winmain.o: ../../ttmath/ttmath/ttmathmisc.h
+winmain.o: ../../ttmath/ttmath/ttmathuint_x86.h
+winmain.o: ../../ttmath/ttmath/ttmathuint_x86_64.h
+winmain.o: ../../ttmath/ttmath/ttmathuint_noasm.h
+winmain.o: ../../ttmath/ttmath/ttmaththreads.h
+winmain.o: ../../ttmath/ttmath/ttmathobjects.h
+winmain.o: ../../ttmath/ttmath/ttmathparser.h ../../ttmath/ttmath/ttmath.h
+winmain.o: threadcontroller.h ../../ttmath/ttmath/ttmathobjects.h
+winmain.o: stopcalculating.h ../../ttmath/ttmath/ttmathtypes.h convert.h
+winmain.o: resource.h messages.h tabs.h pad.h update.h download.h

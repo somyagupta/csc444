@@ -277,13 +277,14 @@ return true;
 }
 
 
+/*
 BOOL WmTabCommand_Press_pi(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	InsertText("pi",0);
 
 return true;
 }
-
+*/
 
 BOOL WmTabCommand_Press_sin(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
@@ -396,10 +397,10 @@ return true;
 
 BOOL WmTabCommand_Press_clear(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	SetDlgItemText(GetPrgRes()->GetMainWindow(), IDC_INPUT_EDIT, "");
+	//SetDlgItemText(GetPrgRes()->GetMainWindow(), IDC_INPUT_EDIT, "");
 	
-	HWND input_edit = GetDlgItem( GetPrgRes()->GetMainWindow(), IDC_INPUT_EDIT );
-	SetFocus(input_edit);
+	//HWND input_edit = GetDlgItem( GetPrgRes()->GetMainWindow(), IDC_INPUT_EDIT );
+	//SetFocus(input_edit);
 
 return true;
 }

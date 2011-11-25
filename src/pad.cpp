@@ -708,6 +708,8 @@ LRESULT PadUndo(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 return 0;
 }
 
+
+/*
 LRESULT PadCut(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
 	SendMessage(edit, WM_CUT, 0, 0);
@@ -730,7 +732,7 @@ LRESULT PadPaste(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 return 0;
 }
-
+*/
 
 LRESULT PadDel(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {

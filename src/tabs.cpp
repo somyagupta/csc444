@@ -277,14 +277,14 @@ return true;
 }
 
 
-/*
+
 BOOL WmTabCommand_Press_pi(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	InsertText("pi",0);
 
 return true;
 }
-*/
+
 
 BOOL WmTabCommand_Press_sin(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {

@@ -446,15 +446,15 @@ LRESULT PadSize(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 // client coordinates
 int cx = LOWORD(lParam);
 int cy = HIWORD(lParam);
-int fwSizeType = int(wParam);
+//int fwSizeType = int(wParam);
 RECT r;
 
 
-	if( fwSizeType == SIZE_MAXIMIZED )
-		GetPrgRes()->SetPadMaximized(true);
-	else
-	if( fwSizeType == SIZE_RESTORED )
-		GetPrgRes()->SetPadMaximized(false);
+	//if( fwSizeType == SIZE_MAXIMIZED )
+	//	GetPrgRes()->SetPadMaximized(true);
+	//else
+	//if( fwSizeType == SIZE_RESTORED )
+	GetPrgRes()->SetPadMaximized(false);
 
 	MoveWindow(edit, 0, 0, cx, cy, true);
 

@@ -87,22 +87,22 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR par, int)
 	if( (thread_handle = _beginthreadex(0,0,CalculationsProcedure, 0, 0, &thread_id)) == 0 )
 		return ShowError( Languages::cant_create_thread );
 
-	bool maximized_from_file = GetPrgRes()->GetMaximized();
+	//bool maximized_from_file = GetPrgRes()->GetMaximized();
 	CreateDialog( hInstance, MAKEINTRESOURCE(IDD_MAIN_DIALOG), 0, MainWindowProc);
 
 	if( !GetPrgRes()->GetMainWindow() )
 		return ShowError( Languages::cant_create_main_window );
- 
+	/*
 	if( maximized_from_file )
 	{
 		GetPrgRes()->SetMaximized(true);
 		ShowWindow(GetPrgRes()->GetMainWindow(), SW_SHOWMAXIMIZED);
 	}
 	else
-	{
-		GetPrgRes()->SetMaximized(false);
-		ShowWindow(GetPrgRes()->GetMainWindow(), SW_SHOWNORMAL);
-	}
+	{*/
+	GetPrgRes()->SetMaximized(false);
+	ShowWindow(GetPrgRes()->GetMainWindow(), SW_SHOWNORMAL);
+	//}
 
 	if( !CreatePadWindow() )
 		return ShowError( Languages::cant_create_pad );
